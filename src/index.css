@@ -21,3 +21,11 @@ a.active_class{
   font-weight: bolder;
   border-bottom: 10px solid black;
 }
+
+.nav_style  {
+  width: 100%;
+  line-height: 60px;
+  background-color: slateblue;
+  display: flex;
+  justify-content: space-around;
+}

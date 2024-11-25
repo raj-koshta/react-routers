@@ -4,7 +4,7 @@ import './index.css'
 
 const Nav = () => {
   return (
-    <div style={{backgroundColor: 'slateblue', padding: '10px', textAlign: 'center', marginBottom: '100px'}}>
+    <div className='nav_style'>
         <NavLink exact to='/home'>Home</NavLink>
         <NavLink exact to='/about_us' style={{marginLeft: "50px"}}>AboutUs</NavLink>
         <NavLink exact to='/contact_us' style={{marginLeft: "50px"}}>ContactUs</NavLink>
